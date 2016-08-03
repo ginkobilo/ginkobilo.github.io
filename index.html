@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Ums Visualization</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/dc.css">
-    <link rel="stylesheet" type="text/css" href="css/leaflet.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-<style type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Ums Visualization</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/dc.css">
+  <link rel="stylesheet" type="text/css" href="css/leaflet.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style type="text/css">
     body {
         padding: 0;
         margin: 0;
@@ -34,9 +34,8 @@
 </head>
 <body>
 
-
-<div class="container-fluid">
- <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,86 +46,89 @@
           </button>
           <a class="navbar-brand" href="#">Ums Visualization</a>
         </div>
-        
+
       </div>
     </nav>
 
     <div class="col-xs-12 dc-data-count dc-chart" id="data-count" style="margin-top:50px">
-      <h2>Ums History
+      <h2>
+        Ums History
         <small>
-          <span class="filter-count"></span> selected out of <span class="total-count"></span> records |
-           <a id="all" href="#">Reset All</a>
-          
-        </small>
+          <span class="filter-count"></span>
+          selected out of
+          <span class="total-count"></span>
+          records |
+          <a id="all" href="#">Reset All</a>
 
+        </small>
 
       </h2>
     </div>
 
     <div class="row" >
-      <div class="col-xs-6"></div>
-      <div class="col-xs-4">
-      <small><h4>
-        Area : 
-        <span id="selected-area">  </span>
-        | Country :
-        <span id="selected-country">  </span>
-      </h4></small>
+        <div class="col-xs-2 pie-chart">
+        <h4>
+          Places mesured
+          <small>
+            <a id="places">reset</a>
+          </small>
+        </h4>
+        <div class="dc-chart" id="chart-ring-places"></div>
       </div>
-    <div class="col-xs-2">
-      <a id="all" href="#">Reset All</a>
+      <div class="col-xs-2 pie-chart">
+        <h4>
+          Month
+          <small>
+            <a id="month" href="#">reset</a>
+          </small>
+        </h4>
+        <div class="dc-chart" id="chart-ring-month"></div>
+      </div>
+
+      <div class="col-xs-4">
+        <small>
+          <h4>
+            Area :
+            <span id="selected-area"></span>
+            | Country :
+            <span id="selected-country"></span>
+          </h4>
+        </small>
+      </div>
+
+      <div class="col-xs-2">
+        <a id="all" href="#">Reset All</a>
+      </div>
+
     </div>
 
-
-    </div>
-
-  <div class="row" >
-   <div class="col-xs-6">
-    <div id="chart-line-hitsperday" style="padding-left:10px"></div>
-    </div>
-    <div class="col-xs-6">
+    <div class="row" >
+      <div class="col-xs-6">
+        <div id="chart-line-hitsperday" style="padding-left:10px"></div>
+      </div>
+      <div class="col-xs-6">
         <div id="mapid" style="height:270px;width:500px"></div>
       </div>
-  </div>
-
-  <div class="row">
-   <div class="col-xs-6">
-    <div id="chart-line-index"></div>
     </div>
-  </div>
 
-
-  <div class="row" id="control-row" >
-     <div class="col-xs-6">
-      <div id="chart-raw-countries" "></div>
-     </div>
-        <div class="row">
-    <div class="col-xs-6">
-      <div id="chart-world"> </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <div id="chart-line-index"></div>
+      </div>
     </div>
-  </div>
-  </div>
 
- 
-
-
-<div class="row">
-        <div class="col-xs-2 pie-chart">
-          <h4>Places mesured <small><a id="places">reset</a></small></h4>
-          <div class="dc-chart" id="chart-ring-places"></div>
+    <div class="row" id="control-row" >
+      <div class="col-xs-6">
+        <div id="chart-raw-countries" "></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div id="chart-world"></div>
         </div>
-        <div class="col-xs-2 pie-chart">
-          <h4>Month <small><a id="month" href="#">reset</a></small></h4>
-          <div class="dc-chart" id="chart-ring-month"></div>
-        </div>
-        <div class="col-xs-2 pie-chart">
-          <h4>Nations <small><a id="day">reset</a></small></h4>
-          <div id="chart-ring-nation" class="dc-chart"></div>
-        </div>
-  </div>
+      </div>
+    </div>
 
-
-<script>
+    <script>
 /*
   <div class="row">
     <div class="col-xs-12">
@@ -146,12 +148,13 @@
   </div>*/
   </script>
 
- </div>
-<script type="text/javascript" src="js/d3.js"></script>
-<script type="text/javascript" src="js/crossfilter.js"></script>
-<script type="text/javascript" src="js/dc.js"></script>
-<script type="text/javascript" src="js/leaflet.js"></script>
-<script type="text/javascript" src="js/underscore-min.js"></script>
-<script type="text/javascript" src="js/queue.js"></script>
-<script src="./framer.js" type='text/javascript' charset="utf-8"></script>
-</body></html>
+  </div>
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="js/crossfilter.js"></script>
+  <script type="text/javascript" src="js/dc.js"></script>
+  <script type="text/javascript" src="js/leaflet.js"></script>
+  <script type="text/javascript" src="js/underscore-min.js"></script>
+  <script type="text/javascript" src="js/queue.js"></script>
+  <script src="./framer.js" type='text/javascript' charset="utf-8"></script>
+</body>
+</html>

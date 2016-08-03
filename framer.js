@@ -196,16 +196,28 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
   	.scale(100)
     .translate([width/2, height]);*/
 
+    //console.log(countCountry.bottom(1))
+    color_ramp_10 = ["#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"]
+	color_ramp_5 = ["#a0b4f3", "#A790B6","#AF6D79","#B7493C","#BF2600"];
+	color_ramp_4 =["#edf8fb","#b2e2e2","#66c2a4","#238b45"]
+
+
+
+
+
 	WChart.width(width)
 	.height(height)
 	.dimension(CountryDim)
 	.group(countCountry)
-	.colors(d3.scale.quantize().range(["#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"]))
-	.colorDomain([0, 200])
+	.colors(d3.scale.quantize().range(color_ramp_4))
+	//.colors(d3.scale.category10())
+	.colorDomain([0, Math.log(countCountry.top(2)[1].value)])
 	.colorCalculator(function (d) { return d ? WChart.colors()(d) : '#ccc'; })
 	.overlayGeoJson(WGeoMap.features, "state", function (d) { return d.id})
 	.projection(projection)
+	.valueAccessor(function(p) { return Math.log(p.value) })
 	.render();
+	// 
 
 	
     //*******************
@@ -225,6 +237,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	.brushOn(false)
 	//.xUnits(d3.time.days)
 	.renderHorizontalGridLines(true)
+	 .margins({top: 5, left: 10, right: 10, bottom: 20})
 	//.xAxis();
 
 
