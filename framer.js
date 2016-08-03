@@ -164,7 +164,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	monthChart  =  dc.pieChart('#chart-ring-month'),
 	placeChart  =  dc.pieChart('#chart-ring-places'),
 	dataCount = dc.dataCount('#data-count'),
-	dataTable = dc.dataTable('#data-table'),
+	dataTable = dc.dataTable('-----#data-table'),
 	WChart = dc.geoChoroplethChart("#chart-world");
 
 
@@ -197,7 +197,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	.colorDomain([0, 200])
 	.colorCalculator(function (d) { return d ? WChart.colors()(d) : '#ccc'; })
 	.overlayGeoJson(WGeoMap.features, "state", function (d) { return d.id})
-	.projection(projection)
+	//.projection(projection)
 	.render();
 
 	
