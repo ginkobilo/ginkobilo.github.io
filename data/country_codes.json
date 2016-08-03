@@ -1,0 +1,1745 @@
+[
+  {
+    "COUNTRY": "Afghanistan",
+    "A2_ISO": "AF",
+    "A3_UN": "AFG",
+    "NUM_UN": 4,
+    "DIALING_CODE": 93
+  },
+  {
+    "COUNTRY": "Albania",
+    "A2_ISO": "AL",
+    "A3_UN": "ALB",
+    "NUM_UN": 8,
+    "DIALING_CODE": 355
+  },
+  {
+    "COUNTRY": "Algeria",
+    "A2_ISO": "DZ",
+    "A3_UN": "DZA",
+    "NUM_UN": 12,
+    "DIALING_CODE": 213
+  },
+  {
+    "COUNTRY": "American Samoa",
+    "A2_ISO": "AS",
+    "A3_UN": "ASM",
+    "NUM_UN": 16,
+    "DIALING_CODE": "1-684"
+  },
+  {
+    "COUNTRY": "Andorra",
+    "A2_ISO": "AD",
+    "A3_UN": "AND",
+    "NUM_UN": 20,
+    "DIALING_CODE": 376
+  },
+  {
+    "COUNTRY": "Angola",
+    "A2_ISO": "AO",
+    "A3_UN": "AGO",
+    "NUM_UN": 24,
+    "DIALING_CODE": 244
+  },
+  {
+    "COUNTRY": "Anguilla",
+    "A2_ISO": "AI",
+    "A3_UN": "AIA",
+    "NUM_UN": 660,
+    "DIALING_CODE": "1-264"
+  },
+  {
+    "COUNTRY": "Antarctica",
+    "A2_ISO": "AQ",
+    "A3_UN": "ATA",
+    "NUM_UN": 10,
+    "DIALING_CODE": 672
+  },
+  {
+    "COUNTRY": "Antigua and Barbuda",
+    "A2_ISO": "AG",
+    "A3_UN": "ATG",
+    "NUM_UN": 28,
+    "DIALING_CODE": "1-268"
+  },
+  {
+    "COUNTRY": "Argentina",
+    "A2_ISO": "AR",
+    "A3_UN": "ARG",
+    "NUM_UN": 32,
+    "DIALING_CODE": 54
+  },
+  {
+    "COUNTRY": "Armenia",
+    "A2_ISO": "AM",
+    "A3_UN": "ARM",
+    "NUM_UN": 51,
+    "DIALING_CODE": 374
+  },
+  {
+    "COUNTRY": "Aruba",
+    "A2_ISO": "AW",
+    "A3_UN": "ABW",
+    "NUM_UN": 533,
+    "DIALING_CODE": 297
+  },
+  {
+    "COUNTRY": "Australia",
+    "A2_ISO": "AU",
+    "A3_UN": "AUS",
+    "NUM_UN": 36,
+    "DIALING_CODE": 61
+  },
+  {
+    "COUNTRY": "Austria",
+    "A2_ISO": "AT",
+    "A3_UN": "AUT",
+    "NUM_UN": 40,
+    "DIALING_CODE": 43
+  },
+  {
+    "COUNTRY": "Azerbaijan",
+    "A2_ISO": "AZ",
+    "A3_UN": "AZE",
+    "NUM_UN": 31,
+    "DIALING_CODE": 994
+  },
+  {
+    "COUNTRY": "Bahamas",
+    "A2_ISO": "BS",
+    "A3_UN": "BHS",
+    "NUM_UN": 44,
+    "DIALING_CODE": "1-242"
+  },
+  {
+    "COUNTRY": "Bahrain",
+    "A2_ISO": "BH",
+    "A3_UN": "BHR",
+    "NUM_UN": 48,
+    "DIALING_CODE": 973
+  },
+  {
+    "COUNTRY": "Bangladesh",
+    "A2_ISO": "BD",
+    "A3_UN": "BGD",
+    "NUM_UN": 50,
+    "DIALING_CODE": 880
+  },
+  {
+    "COUNTRY": "Barbados",
+    "A2_ISO": "BB",
+    "A3_UN": "BRB",
+    "NUM_UN": 52,
+    "DIALING_CODE": "1-246"
+  },
+  {
+    "COUNTRY": "Belarus",
+    "A2_ISO": "BY",
+    "A3_UN": "BLR",
+    "NUM_UN": 112,
+    "DIALING_CODE": 375
+  },
+  {
+    "COUNTRY": "Belgium",
+    "A2_ISO": "BE",
+    "A3_UN": "BEL",
+    "NUM_UN": 56,
+    "DIALING_CODE": 32
+  },
+  {
+    "COUNTRY": "Belize",
+    "A2_ISO": "BZ",
+    "A3_UN": "BLZ",
+    "NUM_UN": 84,
+    "DIALING_CODE": 501
+  },
+  {
+    "COUNTRY": "Benin",
+    "A2_ISO": "BJ",
+    "A3_UN": "BEN",
+    "NUM_UN": 204,
+    "DIALING_CODE": 229
+  },
+  {
+    "COUNTRY": "Bermuda",
+    "A2_ISO": "BM",
+    "A3_UN": "BMU",
+    "NUM_UN": 60,
+    "DIALING_CODE": "1-441"
+  },
+  {
+    "COUNTRY": "Bhutan",
+    "A2_ISO": "BT",
+    "A3_UN": "BTN",
+    "NUM_UN": 64,
+    "DIALING_CODE": 975
+  },
+  {
+    "COUNTRY": "Bolivia",
+    "A2_ISO": "BO",
+    "A3_UN": "BOL",
+    "NUM_UN": 68,
+    "DIALING_CODE": 591
+  },
+  {
+    "COUNTRY": "Bonaire",
+    "A2_ISO": "BQ",
+    "A3_UN": "BES",
+    "NUM_UN": 535,
+    "DIALING_CODE": 599
+  },
+  {
+    "COUNTRY": "Bosnia and Herzegovina",
+    "A2_ISO": "BA",
+    "A3_UN": "BIH",
+    "NUM_UN": 70,
+    "DIALING_CODE": 387
+  },
+  {
+    "COUNTRY": "Botswana",
+    "A2_ISO": "BW",
+    "A3_UN": "BWA",
+    "NUM_UN": 72,
+    "DIALING_CODE": 267
+  },
+  {
+    "COUNTRY": "Bouvet Island",
+    "A2_ISO": "BV",
+    "A3_UN": "BVT",
+    "NUM_UN": 74,
+    "DIALING_CODE": 47
+  },
+  {
+    "COUNTRY": "Brazil",
+    "A2_ISO": "BR",
+    "A3_UN": "BRA",
+    "NUM_UN": 76,
+    "DIALING_CODE": 55
+  },
+  {
+    "COUNTRY": "British Indian Ocean Territory",
+    "A2_ISO": "IO",
+    "A3_UN": "IOT",
+    "NUM_UN": 86,
+    "DIALING_CODE": 246
+  },
+  {
+    "COUNTRY": "Brunei Darussalam",
+    "A2_ISO": "BN",
+    "A3_UN": "BRN",
+    "NUM_UN": 96,
+    "DIALING_CODE": 673
+  },
+  {
+    "COUNTRY": "Bulgaria",
+    "A2_ISO": "BG",
+    "A3_UN": "BGR",
+    "NUM_UN": 100,
+    "DIALING_CODE": 359
+  },
+  {
+    "COUNTRY": "Burkina Faso",
+    "A2_ISO": "BF",
+    "A3_UN": "BFA",
+    "NUM_UN": 854,
+    "DIALING_CODE": 226
+  },
+  {
+    "COUNTRY": "Burundi",
+    "A2_ISO": "BI",
+    "A3_UN": "BDI",
+    "NUM_UN": 108,
+    "DIALING_CODE": 257
+  },
+  {
+    "COUNTRY": "Cambodia",
+    "A2_ISO": "KH",
+    "A3_UN": "KHM",
+    "NUM_UN": 116,
+    "DIALING_CODE": 855
+  },
+  {
+    "COUNTRY": "Cameroon",
+    "A2_ISO": "CM",
+    "A3_UN": "CMR",
+    "NUM_UN": 120,
+    "DIALING_CODE": 237
+  },
+  {
+    "COUNTRY": "Canada",
+    "A2_ISO": "CA",
+    "A3_UN": "CAN",
+    "NUM_UN": 124,
+    "DIALING_CODE": 1
+  },
+  {
+    "COUNTRY": "Cape Verde",
+    "A2_ISO": "CV",
+    "A3_UN": "CPV",
+    "NUM_UN": 132,
+    "DIALING_CODE": 238
+  },
+  {
+    "COUNTRY": "Cayman Islands",
+    "A2_ISO": "KY",
+    "A3_UN": "CYM",
+    "NUM_UN": 136,
+    "DIALING_CODE": "1-345"
+  },
+  {
+    "COUNTRY": "Central African Republic",
+    "A2_ISO": "CF",
+    "A3_UN": "CAF",
+    "NUM_UN": 140,
+    "DIALING_CODE": 236
+  },
+  {
+    "COUNTRY": "Chad",
+    "A2_ISO": "TD",
+    "A3_UN": "TCD",
+    "NUM_UN": 148,
+    "DIALING_CODE": 235
+  },
+  {
+    "COUNTRY": "Chile",
+    "A2_ISO": "CL",
+    "A3_UN": "CHL",
+    "NUM_UN": 152,
+    "DIALING_CODE": 56
+  },
+  {
+    "COUNTRY": "China",
+    "A2_ISO": "CN",
+    "A3_UN": "CHN",
+    "NUM_UN": 156,
+    "DIALING_CODE": 86
+  },
+  {
+    "COUNTRY": "Christmas Island",
+    "A2_ISO": "CX",
+    "A3_UN": "CXR",
+    "NUM_UN": 162,
+    "DIALING_CODE": 61
+  },
+  {
+    "COUNTRY": "Cocos (Keeling) Islands",
+    "A2_ISO": "CC",
+    "A3_UN": "CCK",
+    "NUM_UN": 166,
+    "DIALING_CODE": 61
+  },
+  {
+    "COUNTRY": "Colombia",
+    "A2_ISO": "CO",
+    "A3_UN": "COL",
+    "NUM_UN": 170,
+    "DIALING_CODE": 57
+  },
+  {
+    "COUNTRY": "Comoros",
+    "A2_ISO": "KM",
+    "A3_UN": "COM",
+    "NUM_UN": 174,
+    "DIALING_CODE": 269
+  },
+  {
+    "COUNTRY": "Congo",
+    "A2_ISO": "CG",
+    "A3_UN": "COG",
+    "NUM_UN": 178,
+    "DIALING_CODE": 242
+  },
+  {
+    "COUNTRY": "Democratic Republic of the Congo",
+    "A2_ISO": "CD",
+    "A3_UN": "COD",
+    "NUM_UN": 180,
+    "DIALING_CODE": 243
+  },
+  {
+    "COUNTRY": "Cook Islands",
+    "A2_ISO": "CK",
+    "A3_UN": "COK",
+    "NUM_UN": 184,
+    "DIALING_CODE": 682
+  },
+  {
+    "COUNTRY": "Costa Rica",
+    "A2_ISO": "CR",
+    "A3_UN": "CRI",
+    "NUM_UN": 188,
+    "DIALING_CODE": 506
+  },
+  {
+    "COUNTRY": "Croatia",
+    "A2_ISO": "HR",
+    "A3_UN": "HRV",
+    "NUM_UN": 191,
+    "DIALING_CODE": 385
+  },
+  {
+    "COUNTRY": "Cuba",
+    "A2_ISO": "CU",
+    "A3_UN": "CUB",
+    "NUM_UN": 192,
+    "DIALING_CODE": 53
+  },
+  {
+    "COUNTRY": "CuraÃ§ao",
+    "A2_ISO": "CW",
+    "A3_UN": "CUW",
+    "NUM_UN": 531,
+    "DIALING_CODE": 599
+  },
+  {
+    "COUNTRY": "Cyprus",
+    "A2_ISO": "CY",
+    "A3_UN": "CYP",
+    "NUM_UN": 196,
+    "DIALING_CODE": 357
+  },
+  {
+    "COUNTRY": "Czech Republic",
+    "A2_ISO": "CZ",
+    "A3_UN": "CZE",
+    "NUM_UN": 203,
+    "DIALING_CODE": 420
+  },
+  {
+    "COUNTRY": "CÃ´te d'Ivoire",
+    "A2_ISO": "CI",
+    "A3_UN": "CIV",
+    "NUM_UN": 384,
+    "DIALING_CODE": 225
+  },
+  {
+    "COUNTRY": "Denmark",
+    "A2_ISO": "DK",
+    "A3_UN": "DNK",
+    "NUM_UN": 208,
+    "DIALING_CODE": 45
+  },
+  {
+    "COUNTRY": "Djibouti",
+    "A2_ISO": "DJ",
+    "A3_UN": "DJI",
+    "NUM_UN": 262,
+    "DIALING_CODE": 253
+  },
+  {
+    "COUNTRY": "Dominica",
+    "A2_ISO": "DM",
+    "A3_UN": "DMA",
+    "NUM_UN": 212,
+    "DIALING_CODE": "1-767"
+  },
+  {
+    "COUNTRY": "Dominican Republic",
+    "A2_ISO": "DO",
+    "A3_UN": "DOM",
+    "NUM_UN": 214,
+    "DIALING_CODE": "1-809,1-829,1-849"
+  },
+  {
+    "COUNTRY": "Ecuador",
+    "A2_ISO": "EC",
+    "A3_UN": "ECU",
+    "NUM_UN": 218,
+    "DIALING_CODE": 593
+  },
+  {
+    "COUNTRY": "Egypt",
+    "A2_ISO": "EG",
+    "A3_UN": "EGY",
+    "NUM_UN": 818,
+    "DIALING_CODE": 20
+  },
+  {
+    "COUNTRY": "El Salvador",
+    "A2_ISO": "SV",
+    "A3_UN": "SLV",
+    "NUM_UN": 222,
+    "DIALING_CODE": 503
+  },
+  {
+    "COUNTRY": "Equatorial Guinea",
+    "A2_ISO": "GQ",
+    "A3_UN": "GNQ",
+    "NUM_UN": 226,
+    "DIALING_CODE": 240
+  },
+  {
+    "COUNTRY": "Eritrea",
+    "A2_ISO": "ER",
+    "A3_UN": "ERI",
+    "NUM_UN": 232,
+    "DIALING_CODE": 291
+  },
+  {
+    "COUNTRY": "Estonia",
+    "A2_ISO": "EE",
+    "A3_UN": "EST",
+    "NUM_UN": 233,
+    "DIALING_CODE": 372
+  },
+  {
+    "COUNTRY": "Ethiopia",
+    "A2_ISO": "ET",
+    "A3_UN": "ETH",
+    "NUM_UN": 231,
+    "DIALING_CODE": 251
+  },
+  {
+    "COUNTRY": "Falkland Islands (Malvinas)",
+    "A2_ISO": "FK",
+    "A3_UN": "FLK",
+    "NUM_UN": 238,
+    "DIALING_CODE": 500
+  },
+  {
+    "COUNTRY": "Faroe Islands",
+    "A2_ISO": "FO",
+    "A3_UN": "FRO",
+    "NUM_UN": 234,
+    "DIALING_CODE": 298
+  },
+  {
+    "COUNTRY": "Fiji",
+    "A2_ISO": "FJ",
+    "A3_UN": "FJI",
+    "NUM_UN": 242,
+    "DIALING_CODE": 679
+  },
+  {
+    "COUNTRY": "Finland",
+    "A2_ISO": "FI",
+    "A3_UN": "FIN",
+    "NUM_UN": 246,
+    "DIALING_CODE": 358
+  },
+  {
+    "COUNTRY": "France",
+    "A2_ISO": "FR",
+    "A3_UN": "FRA",
+    "NUM_UN": 250,
+    "DIALING_CODE": 33
+  },
+  {
+    "COUNTRY": "French Guiana",
+    "A2_ISO": "GF",
+    "A3_UN": "GUF",
+    "NUM_UN": 254,
+    "DIALING_CODE": 594
+  },
+  {
+    "COUNTRY": "French Polynesia",
+    "A2_ISO": "PF",
+    "A3_UN": "PYF",
+    "NUM_UN": 258,
+    "DIALING_CODE": 689
+  },
+  {
+    "COUNTRY": "French Southern Territories",
+    "A2_ISO": "TF",
+    "A3_UN": "ATF",
+    "NUM_UN": 260,
+    "DIALING_CODE": 262
+  },
+  {
+    "COUNTRY": "Gabon",
+    "A2_ISO": "GA",
+    "A3_UN": "GAB",
+    "NUM_UN": 266,
+    "DIALING_CODE": 241
+  },
+  {
+    "COUNTRY": "Gambia",
+    "A2_ISO": "GM",
+    "A3_UN": "GMB",
+    "NUM_UN": 270,
+    "DIALING_CODE": 220
+  },
+  {
+    "COUNTRY": "Georgia",
+    "A2_ISO": "GE",
+    "A3_UN": "GEO",
+    "NUM_UN": 268,
+    "DIALING_CODE": 995
+  },
+  {
+    "COUNTRY": "Germany",
+    "A2_ISO": "DE",
+    "A3_UN": "DEU",
+    "NUM_UN": 276,
+    "DIALING_CODE": 49
+  },
+  {
+    "COUNTRY": "Ghana",
+    "A2_ISO": "GH",
+    "A3_UN": "GHA",
+    "NUM_UN": 288,
+    "DIALING_CODE": 233
+  },
+  {
+    "COUNTRY": "Gibraltar",
+    "A2_ISO": "GI",
+    "A3_UN": "GIB",
+    "NUM_UN": 292,
+    "DIALING_CODE": 350
+  },
+  {
+    "COUNTRY": "Greece",
+    "A2_ISO": "GR",
+    "A3_UN": "GRC",
+    "NUM_UN": 300,
+    "DIALING_CODE": 30
+  },
+  {
+    "COUNTRY": "Greenland",
+    "A2_ISO": "GL",
+    "A3_UN": "GRL",
+    "NUM_UN": 304,
+    "DIALING_CODE": 299
+  },
+  {
+    "COUNTRY": "Grenada",
+    "A2_ISO": "GD",
+    "A3_UN": "GRD",
+    "NUM_UN": 308,
+    "DIALING_CODE": "1-473"
+  },
+  {
+    "COUNTRY": "Guadeloupe",
+    "A2_ISO": "GP",
+    "A3_UN": "GLP",
+    "NUM_UN": 312,
+    "DIALING_CODE": 590
+  },
+  {
+    "COUNTRY": "Guam",
+    "A2_ISO": "GU",
+    "A3_UN": "GUM",
+    "NUM_UN": 316,
+    "DIALING_CODE": "1-671"
+  },
+  {
+    "COUNTRY": "Guatemala",
+    "A2_ISO": "GT",
+    "A3_UN": "GTM",
+    "NUM_UN": 320,
+    "DIALING_CODE": 502
+  },
+  {
+    "COUNTRY": "Guernsey",
+    "A2_ISO": "GG",
+    "A3_UN": "GGY",
+    "NUM_UN": 831,
+    "DIALING_CODE": 44
+  },
+  {
+    "COUNTRY": "Guinea",
+    "A2_ISO": "GN",
+    "A3_UN": "GIN",
+    "NUM_UN": 324,
+    "DIALING_CODE": 224
+  },
+  {
+    "COUNTRY": "Guinea-Bissau",
+    "A2_ISO": "GW",
+    "A3_UN": "GNB",
+    "NUM_UN": 624,
+    "DIALING_CODE": 245
+  },
+  {
+    "COUNTRY": "Guyana",
+    "A2_ISO": "GY",
+    "A3_UN": "GUY",
+    "NUM_UN": 328,
+    "DIALING_CODE": 592
+  },
+  {
+    "COUNTRY": "Haiti",
+    "A2_ISO": "HT",
+    "A3_UN": "HTI",
+    "NUM_UN": 332,
+    "DIALING_CODE": 509
+  },
+  {
+    "COUNTRY": "Heard Island and McDonald Mcdonald Islands",
+    "A2_ISO": "HM",
+    "A3_UN": "HMD",
+    "NUM_UN": 334,
+    "DIALING_CODE": 672
+  },
+  {
+    "COUNTRY": "Holy See (Vatican City State)",
+    "A2_ISO": "VA",
+    "A3_UN": "VAT",
+    "NUM_UN": 336,
+    "DIALING_CODE": 379
+  },
+  {
+    "COUNTRY": "Honduras",
+    "A2_ISO": "HN",
+    "A3_UN": "HND",
+    "NUM_UN": 340,
+    "DIALING_CODE": 504
+  },
+  {
+    "COUNTRY": "Hong Kong",
+    "A2_ISO": "HK",
+    "A3_UN": "HKG",
+    "NUM_UN": 344,
+    "DIALING_CODE": 852
+  },
+  {
+    "COUNTRY": "Hungary",
+    "A2_ISO": "HU",
+    "A3_UN": "HUN",
+    "NUM_UN": 348,
+    "DIALING_CODE": 36
+  },
+  {
+    "COUNTRY": "Iceland",
+    "A2_ISO": "IS",
+    "A3_UN": "ISL",
+    "NUM_UN": 352,
+    "DIALING_CODE": 354
+  },
+  {
+    "COUNTRY": "India",
+    "A2_ISO": "IN",
+    "A3_UN": "IND",
+    "NUM_UN": 356,
+    "DIALING_CODE": 91
+  },
+  {
+    "COUNTRY": "Indonesia",
+    "A2_ISO": "ID",
+    "A3_UN": "IDN",
+    "NUM_UN": 360,
+    "DIALING_CODE": 62
+  },
+  {
+    "COUNTRY": "Iran, Islamic Republic of",
+    "A2_ISO": "IR",
+    "A3_UN": "IRN",
+    "NUM_UN": 364,
+    "DIALING_CODE": 98
+  },
+  {
+    "COUNTRY": "Iraq",
+    "A2_ISO": "IQ",
+    "A3_UN": "IRQ",
+    "NUM_UN": 368,
+    "DIALING_CODE": 964
+  },
+  {
+    "COUNTRY": "Ireland",
+    "A2_ISO": "IE",
+    "A3_UN": "IRL",
+    "NUM_UN": 372,
+    "DIALING_CODE": 353
+  },
+  {
+    "COUNTRY": "Isle of Man",
+    "A2_ISO": "IM",
+    "A3_UN": "IMN",
+    "NUM_UN": 833,
+    "DIALING_CODE": 44
+  },
+  {
+    "COUNTRY": "Israel",
+    "A2_ISO": "IL",
+    "A3_UN": "ISR",
+    "NUM_UN": 376,
+    "DIALING_CODE": 972
+  },
+  {
+    "COUNTRY": "Italy",
+    "A2_ISO": "IT",
+    "A3_UN": "ITA",
+    "NUM_UN": 380,
+    "DIALING_CODE": 39
+  },
+  {
+    "COUNTRY": "Jamaica",
+    "A2_ISO": "JM",
+    "A3_UN": "JAM",
+    "NUM_UN": 388,
+    "DIALING_CODE": "1-876"
+  },
+  {
+    "COUNTRY": "Japan",
+    "A2_ISO": "JP",
+    "A3_UN": "JPN",
+    "NUM_UN": 392,
+    "DIALING_CODE": 81
+  },
+  {
+    "COUNTRY": "Jersey",
+    "A2_ISO": "JE",
+    "A3_UN": "JEY",
+    "NUM_UN": 832,
+    "DIALING_CODE": 44
+  },
+  {
+    "COUNTRY": "Jordan",
+    "A2_ISO": "JO",
+    "A3_UN": "JOR",
+    "NUM_UN": 400,
+    "DIALING_CODE": 962
+  },
+  {
+    "COUNTRY": "Kazakhstan",
+    "A2_ISO": "KZ",
+    "A3_UN": "KAZ",
+    "NUM_UN": 398,
+    "DIALING_CODE": 7
+  },
+  {
+    "COUNTRY": "Kenya",
+    "A2_ISO": "KE",
+    "A3_UN": "KEN",
+    "NUM_UN": 404,
+    "DIALING_CODE": 254
+  },
+  {
+    "COUNTRY": "Kiribati",
+    "A2_ISO": "KI",
+    "A3_UN": "KIR",
+    "NUM_UN": 296,
+    "DIALING_CODE": 686
+  },
+  {
+    "COUNTRY": "Korea, Democratic People's Republic of",
+    "A2_ISO": "KP",
+    "A3_UN": "PRK",
+    "NUM_UN": 408,
+    "DIALING_CODE": 850
+  },
+  {
+    "COUNTRY": "Korea, Republic of",
+    "A2_ISO": "KR",
+    "A3_UN": "KOR",
+    "NUM_UN": 410,
+    "DIALING_CODE": 82
+  },
+  {
+    "COUNTRY": "Kuwait",
+    "A2_ISO": "KW",
+    "A3_UN": "KWT",
+    "NUM_UN": 414,
+    "DIALING_CODE": 965
+  },
+  {
+    "COUNTRY": "Kyrgyzstan",
+    "A2_ISO": "KG",
+    "A3_UN": "KGZ",
+    "NUM_UN": 417,
+    "DIALING_CODE": 996
+  },
+  {
+    "COUNTRY": "Lao People's Democratic Republic",
+    "A2_ISO": "LA",
+    "A3_UN": "LAO",
+    "NUM_UN": 418,
+    "DIALING_CODE": 856
+  },
+  {
+    "COUNTRY": "Latvia",
+    "A2_ISO": "LV",
+    "A3_UN": "LVA",
+    "NUM_UN": 428,
+    "DIALING_CODE": 371
+  },
+  {
+    "COUNTRY": "Lebanon",
+    "A2_ISO": "LB",
+    "A3_UN": "LBN",
+    "NUM_UN": 422,
+    "DIALING_CODE": 961
+  },
+  {
+    "COUNTRY": "Lesotho",
+    "A2_ISO": "LS",
+    "A3_UN": "LSO",
+    "NUM_UN": 426,
+    "DIALING_CODE": 266
+  },
+  {
+    "COUNTRY": "Liberia",
+    "A2_ISO": "LR",
+    "A3_UN": "LBR",
+    "NUM_UN": 430,
+    "DIALING_CODE": 231
+  },
+  {
+    "COUNTRY": "Libya",
+    "A2_ISO": "LY",
+    "A3_UN": "LBY",
+    "NUM_UN": 434,
+    "DIALING_CODE": 218
+  },
+  {
+    "COUNTRY": "Liechtenstein",
+    "A2_ISO": "LI",
+    "A3_UN": "LIE",
+    "NUM_UN": 438,
+    "DIALING_CODE": 423
+  },
+  {
+    "COUNTRY": "Lithuania",
+    "A2_ISO": "LT",
+    "A3_UN": "LTU",
+    "NUM_UN": 440,
+    "DIALING_CODE": 370
+  },
+  {
+    "COUNTRY": "Luxembourg",
+    "A2_ISO": "LU",
+    "A3_UN": "LUX",
+    "NUM_UN": 442,
+    "DIALING_CODE": 352
+  },
+  {
+    "COUNTRY": "Macao",
+    "A2_ISO": "MO",
+    "A3_UN": "MAC",
+    "NUM_UN": 446,
+    "DIALING_CODE": 853
+  },
+  {
+    "COUNTRY": "Macedonia, the Former Yugoslav Republic of",
+    "A2_ISO": "MK",
+    "A3_UN": "MKD",
+    "NUM_UN": 807,
+    "DIALING_CODE": 389
+  },
+  {
+    "COUNTRY": "Madagascar",
+    "A2_ISO": "MG",
+    "A3_UN": "MDG",
+    "NUM_UN": 450,
+    "DIALING_CODE": 261
+  },
+  {
+    "COUNTRY": "Malawi",
+    "A2_ISO": "MW",
+    "A3_UN": "MWI",
+    "NUM_UN": 454,
+    "DIALING_CODE": 265
+  },
+  {
+    "COUNTRY": "Malaysia",
+    "A2_ISO": "MY",
+    "A3_UN": "MYS",
+    "NUM_UN": 458,
+    "DIALING_CODE": 60
+  },
+  {
+    "COUNTRY": "Maldives",
+    "A2_ISO": "MV",
+    "A3_UN": "MDV",
+    "NUM_UN": 462,
+    "DIALING_CODE": 960
+  },
+  {
+    "COUNTRY": "Mali",
+    "A2_ISO": "ML",
+    "A3_UN": "MLI",
+    "NUM_UN": 466,
+    "DIALING_CODE": 223
+  },
+  {
+    "COUNTRY": "Malta",
+    "A2_ISO": "MT",
+    "A3_UN": "MLT",
+    "NUM_UN": 470,
+    "DIALING_CODE": 356
+  },
+  {
+    "COUNTRY": "Marshall Islands",
+    "A2_ISO": "MH",
+    "A3_UN": "MHL",
+    "NUM_UN": 584,
+    "DIALING_CODE": 692
+  },
+  {
+    "COUNTRY": "Martinique",
+    "A2_ISO": "MQ",
+    "A3_UN": "MTQ",
+    "NUM_UN": 474,
+    "DIALING_CODE": 596
+  },
+  {
+    "COUNTRY": "Mauritania",
+    "A2_ISO": "MR",
+    "A3_UN": "MRT",
+    "NUM_UN": 478,
+    "DIALING_CODE": 222
+  },
+  {
+    "COUNTRY": "Mauritius",
+    "A2_ISO": "MU",
+    "A3_UN": "MUS",
+    "NUM_UN": 480,
+    "DIALING_CODE": 230
+  },
+  {
+    "COUNTRY": "Mayotte",
+    "A2_ISO": "YT",
+    "A3_UN": "MYT",
+    "NUM_UN": 175,
+    "DIALING_CODE": 262
+  },
+  {
+    "COUNTRY": "Mexico",
+    "A2_ISO": "MX",
+    "A3_UN": "MEX",
+    "NUM_UN": 484,
+    "DIALING_CODE": 52
+  },
+  {
+    "COUNTRY": "Micronesia, Federated States of",
+    "A2_ISO": "FM",
+    "A3_UN": "FSM",
+    "NUM_UN": 583,
+    "DIALING_CODE": 691
+  },
+  {
+    "COUNTRY": "Moldova, Republic of",
+    "A2_ISO": "MD",
+    "A3_UN": "MDA",
+    "NUM_UN": 498,
+    "DIALING_CODE": 373
+  },
+  {
+    "COUNTRY": "Monaco",
+    "A2_ISO": "MC",
+    "A3_UN": "MCO",
+    "NUM_UN": 492,
+    "DIALING_CODE": 377
+  },
+  {
+    "COUNTRY": "Mongolia",
+    "A2_ISO": "MN",
+    "A3_UN": "MNG",
+    "NUM_UN": 496,
+    "DIALING_CODE": 976
+  },
+  {
+    "COUNTRY": "Montenegro",
+    "A2_ISO": "ME",
+    "A3_UN": "MNE",
+    "NUM_UN": 499,
+    "DIALING_CODE": 382
+  },
+  {
+    "COUNTRY": "Montserrat",
+    "A2_ISO": "MS",
+    "A3_UN": "MSR",
+    "NUM_UN": 500,
+    "DIALING_CODE": "1-664"
+  },
+  {
+    "COUNTRY": "Morocco",
+    "A2_ISO": "MA",
+    "A3_UN": "MAR",
+    "NUM_UN": 504,
+    "DIALING_CODE": 212
+  },
+  {
+    "COUNTRY": "Mozambique",
+    "A2_ISO": "MZ",
+    "A3_UN": "MOZ",
+    "NUM_UN": 508,
+    "DIALING_CODE": 258
+  },
+  {
+    "COUNTRY": "Myanmar",
+    "A2_ISO": "MM",
+    "A3_UN": "MMR",
+    "NUM_UN": 104,
+    "DIALING_CODE": 95
+  },
+  {
+    "COUNTRY": "Namibia",
+    "A2_ISO": "NA",
+    "A3_UN": "NAM",
+    "NUM_UN": 516,
+    "DIALING_CODE": 264
+  },
+  {
+    "COUNTRY": "Nauru",
+    "A2_ISO": "NR",
+    "A3_UN": "NRU",
+    "NUM_UN": 520,
+    "DIALING_CODE": 674
+  },
+  {
+    "COUNTRY": "Nepal",
+    "A2_ISO": "NP",
+    "A3_UN": "NPL",
+    "NUM_UN": 524,
+    "DIALING_CODE": 977
+  },
+  {
+    "COUNTRY": "Netherlands",
+    "A2_ISO": "NL",
+    "A3_UN": "NLD",
+    "NUM_UN": 528,
+    "DIALING_CODE": 31
+  },
+  {
+    "COUNTRY": "New Caledonia",
+    "A2_ISO": "NC",
+    "A3_UN": "NCL",
+    "NUM_UN": 540,
+    "DIALING_CODE": 687
+  },
+  {
+    "COUNTRY": "New Zealand",
+    "A2_ISO": "NZ",
+    "A3_UN": "NZL",
+    "NUM_UN": 554,
+    "DIALING_CODE": 64
+  },
+  {
+    "COUNTRY": "Nicaragua",
+    "A2_ISO": "NI",
+    "A3_UN": "NIC",
+    "NUM_UN": 558,
+    "DIALING_CODE": 505
+  },
+  {
+    "COUNTRY": "Niger",
+    "A2_ISO": "NE",
+    "A3_UN": "NER",
+    "NUM_UN": 562,
+    "DIALING_CODE": 227
+  },
+  {
+    "COUNTRY": "Nigeria",
+    "A2_ISO": "NG",
+    "A3_UN": "NGA",
+    "NUM_UN": 566,
+    "DIALING_CODE": 234
+  },
+  {
+    "COUNTRY": "Niue",
+    "A2_ISO": "NU",
+    "A3_UN": "NIU",
+    "NUM_UN": 570,
+    "DIALING_CODE": 683
+  },
+  {
+    "COUNTRY": "Norfolk Island",
+    "A2_ISO": "NF",
+    "A3_UN": "NFK",
+    "NUM_UN": 574,
+    "DIALING_CODE": 672
+  },
+  {
+    "COUNTRY": "Northern Mariana Islands",
+    "A2_ISO": "MP",
+    "A3_UN": "MNP",
+    "NUM_UN": 580,
+    "DIALING_CODE": "1-670"
+  },
+  {
+    "COUNTRY": "Norway",
+    "A2_ISO": "NO",
+    "A3_UN": "NOR",
+    "NUM_UN": 578,
+    "DIALING_CODE": 47
+  },
+  {
+    "COUNTRY": "Oman",
+    "A2_ISO": "OM",
+    "A3_UN": "OMN",
+    "NUM_UN": 512,
+    "DIALING_CODE": 968
+  },
+  {
+    "COUNTRY": "Pakistan",
+    "A2_ISO": "PK",
+    "A3_UN": "PAK",
+    "NUM_UN": 586,
+    "DIALING_CODE": 92
+  },
+  {
+    "COUNTRY": "Palau",
+    "A2_ISO": "PW",
+    "A3_UN": "PLW",
+    "NUM_UN": 585,
+    "DIALING_CODE": 680
+  },
+  {
+    "COUNTRY": "Palestine, State of",
+    "A2_ISO": "PS",
+    "A3_UN": "PSE",
+    "NUM_UN": 275,
+    "DIALING_CODE": 970
+  },
+  {
+    "COUNTRY": "Panama",
+    "A2_ISO": "PA",
+    "A3_UN": "PAN",
+    "NUM_UN": 591,
+    "DIALING_CODE": 507
+  },
+  {
+    "COUNTRY": "Papua New Guinea",
+    "A2_ISO": "PG",
+    "A3_UN": "PNG",
+    "NUM_UN": 598,
+    "DIALING_CODE": 675
+  },
+  {
+    "COUNTRY": "Paraguay",
+    "A2_ISO": "PY",
+    "A3_UN": "PRY",
+    "NUM_UN": 600,
+    "DIALING_CODE": 595
+  },
+  {
+    "COUNTRY": "Peru",
+    "A2_ISO": "PE",
+    "A3_UN": "PER",
+    "NUM_UN": 604,
+    "DIALING_CODE": 51
+  },
+  {
+    "COUNTRY": "Philippines",
+    "A2_ISO": "PH",
+    "A3_UN": "PHL",
+    "NUM_UN": 608,
+    "DIALING_CODE": 63
+  },
+  {
+    "COUNTRY": "Pitcairn",
+    "A2_ISO": "PN",
+    "A3_UN": "PCN",
+    "NUM_UN": 612,
+    "DIALING_CODE": 870
+  },
+  {
+    "COUNTRY": "Poland",
+    "A2_ISO": "PL",
+    "A3_UN": "POL",
+    "NUM_UN": 616,
+    "DIALING_CODE": 48
+  },
+  {
+    "COUNTRY": "Portugal",
+    "A2_ISO": "PT",
+    "A3_UN": "PRT",
+    "NUM_UN": 620,
+    "DIALING_CODE": 351
+  },
+  {
+    "COUNTRY": "Puerto Rico",
+    "A2_ISO": "PR",
+    "A3_UN": "PRI",
+    "NUM_UN": 630,
+    "DIALING_CODE": 1
+  },
+  {
+    "COUNTRY": "Qatar",
+    "A2_ISO": "QA",
+    "A3_UN": "QAT",
+    "NUM_UN": 634,
+    "DIALING_CODE": 974
+  },
+  {
+    "COUNTRY": "Romania",
+    "A2_ISO": "RO",
+    "A3_UN": "ROU",
+    "NUM_UN": 642,
+    "DIALING_CODE": 40
+  },
+  {
+    "COUNTRY": "Russian Federation",
+    "A2_ISO": "RU",
+    "A3_UN": "RUS",
+    "NUM_UN": 643,
+    "DIALING_CODE": 7
+  },
+  {
+    "COUNTRY": "Rwanda",
+    "A2_ISO": "RW",
+    "A3_UN": "RWA",
+    "NUM_UN": 646,
+    "DIALING_CODE": 250
+  },
+  {
+    "COUNTRY": "Reunion",
+    "A2_ISO": "RE",
+    "A3_UN": "REU",
+    "NUM_UN": 638,
+    "DIALING_CODE": 262
+  },
+  {
+    "COUNTRY": "Saint Barthelemy",
+    "A2_ISO": "BL",
+    "A3_UN": "BLM",
+    "NUM_UN": 652,
+    "DIALING_CODE": 590
+  },
+  {
+    "COUNTRY": "Saint Helena",
+    "A2_ISO": "SH",
+    "A3_UN": "SHN",
+    "NUM_UN": 654,
+    "DIALING_CODE": 290
+  },
+  {
+    "COUNTRY": "Saint Kitts and Nevis",
+    "A2_ISO": "KN",
+    "A3_UN": "KNA",
+    "NUM_UN": 659,
+    "DIALING_CODE": "1-869"
+  },
+  {
+    "COUNTRY": "Saint Lucia",
+    "A2_ISO": "LC",
+    "A3_UN": "LCA",
+    "NUM_UN": 662,
+    "DIALING_CODE": "1-758"
+  },
+  {
+    "COUNTRY": "Saint Martin (French part)",
+    "A2_ISO": "MF",
+    "A3_UN": "MAF",
+    "NUM_UN": 663,
+    "DIALING_CODE": 590
+  },
+  {
+    "COUNTRY": "Saint Pierre and Miquelon",
+    "A2_ISO": "PM",
+    "A3_UN": "SPM",
+    "NUM_UN": 666,
+    "DIALING_CODE": 508
+  },
+  {
+    "COUNTRY": "Saint Vincent and the Grenadines",
+    "A2_ISO": "VC",
+    "A3_UN": "VCT",
+    "NUM_UN": 670,
+    "DIALING_CODE": "1-784"
+  },
+  {
+    "COUNTRY": "Samoa",
+    "A2_ISO": "WS",
+    "A3_UN": "WSM",
+    "NUM_UN": 882,
+    "DIALING_CODE": 685
+  },
+  {
+    "COUNTRY": "San Marino",
+    "A2_ISO": "SM",
+    "A3_UN": "SMR",
+    "NUM_UN": 674,
+    "DIALING_CODE": 378
+  },
+  {
+    "COUNTRY": "Sao Tome and Principe",
+    "A2_ISO": "ST",
+    "A3_UN": "STP",
+    "NUM_UN": 678,
+    "DIALING_CODE": 239
+  },
+  {
+    "COUNTRY": "Saudi Arabia",
+    "A2_ISO": "SA",
+    "A3_UN": "SAU",
+    "NUM_UN": 682,
+    "DIALING_CODE": 966
+  },
+  {
+    "COUNTRY": "Senegal",
+    "A2_ISO": "SN",
+    "A3_UN": "SEN",
+    "NUM_UN": 686,
+    "DIALING_CODE": 221
+  },
+  {
+    "COUNTRY": "Serbia",
+    "A2_ISO": "RS",
+    "A3_UN": "SRB",
+    "NUM_UN": 688,
+    "DIALING_CODE": 381
+  },
+  {
+    "COUNTRY": "Seychelles",
+    "A2_ISO": "SC",
+    "A3_UN": "SYC",
+    "NUM_UN": 690,
+    "DIALING_CODE": 248
+  },
+  {
+    "COUNTRY": "Sierra Leone",
+    "A2_ISO": "SL",
+    "A3_UN": "SLE",
+    "NUM_UN": 694,
+    "DIALING_CODE": 232
+  },
+  {
+    "COUNTRY": "Singapore",
+    "A2_ISO": "SG",
+    "A3_UN": "SGP",
+    "NUM_UN": 702,
+    "DIALING_CODE": 65
+  },
+  {
+    "COUNTRY": "Sint Maarten (Dutch part)",
+    "A2_ISO": "SX",
+    "A3_UN": "SXM",
+    "NUM_UN": 534,
+    "DIALING_CODE": "1-721"
+  },
+  {
+    "COUNTRY": "Slovakia",
+    "A2_ISO": "SK",
+    "A3_UN": "SVK",
+    "NUM_UN": 703,
+    "DIALING_CODE": 421
+  },
+  {
+    "COUNTRY": "Slovenia",
+    "A2_ISO": "SI",
+    "A3_UN": "SVN",
+    "NUM_UN": 705,
+    "DIALING_CODE": 386
+  },
+  {
+    "COUNTRY": "Solomon Islands",
+    "A2_ISO": "SB",
+    "A3_UN": "SLB",
+    "NUM_UN": 90,
+    "DIALING_CODE": 677
+  },
+  {
+    "COUNTRY": "Somalia",
+    "A2_ISO": "SO",
+    "A3_UN": "SOM",
+    "NUM_UN": 706,
+    "DIALING_CODE": 252
+  },
+  {
+    "COUNTRY": "South Africa",
+    "A2_ISO": "ZA",
+    "A3_UN": "ZAF",
+    "NUM_UN": 710,
+    "DIALING_CODE": 27
+  },
+  {
+    "COUNTRY": "South Georgia and the South Sandwich Islands",
+    "A2_ISO": "GS",
+    "A3_UN": "SGS",
+    "NUM_UN": 239,
+    "DIALING_CODE": 500
+  },
+  {
+    "COUNTRY": "South Sudan",
+    "A2_ISO": "SS",
+    "A3_UN": "SSD",
+    "NUM_UN": 728,
+    "DIALING_CODE": 211
+  },
+  {
+    "COUNTRY": "Spain",
+    "A2_ISO": "ES",
+    "A3_UN": "ESP",
+    "NUM_UN": 724,
+    "DIALING_CODE": 34
+  },
+  {
+    "COUNTRY": "Sri Lanka",
+    "A2_ISO": "LK",
+    "A3_UN": "LKA",
+    "NUM_UN": 144,
+    "DIALING_CODE": 94
+  },
+  {
+    "COUNTRY": "Sudan",
+    "A2_ISO": "SD",
+    "A3_UN": "SDN",
+    "NUM_UN": 729,
+    "DIALING_CODE": 249
+  },
+  {
+    "COUNTRY": "Suriname",
+    "A2_ISO": "SR",
+    "A3_UN": "SUR",
+    "NUM_UN": 740,
+    "DIALING_CODE": 597
+  },
+  {
+    "COUNTRY": "Svalbard and Jan Mayen",
+    "A2_ISO": "SJ",
+    "A3_UN": "SJM",
+    "NUM_UN": 744,
+    "DIALING_CODE": 47
+  },
+  {
+    "COUNTRY": "Swaziland",
+    "A2_ISO": "SZ",
+    "A3_UN": "SWZ",
+    "NUM_UN": 748,
+    "DIALING_CODE": 268
+  },
+  {
+    "COUNTRY": "Sweden",
+    "A2_ISO": "SE",
+    "A3_UN": "SWE",
+    "NUM_UN": 752,
+    "DIALING_CODE": 46
+  },
+  {
+    "COUNTRY": "Switzerland",
+    "A2_ISO": "CH",
+    "A3_UN": "CHE",
+    "NUM_UN": 756,
+    "DIALING_CODE": 41
+  },
+  {
+    "COUNTRY": "Syrian Arab Republic",
+    "A2_ISO": "SY",
+    "A3_UN": "SYR",
+    "NUM_UN": 760,
+    "DIALING_CODE": 963
+  },
+  {
+    "COUNTRY": "Taiwan, Province of China",
+    "A2_ISO": "TW",
+    "A3_UN": "TWN",
+    "NUM_UN": 158,
+    "DIALING_CODE": 886
+  },
+  {
+    "COUNTRY": "Tajikistan",
+    "A2_ISO": "TJ",
+    "A3_UN": "TJK",
+    "NUM_UN": 762,
+    "DIALING_CODE": 992
+  },
+  {
+    "COUNTRY": "United Republic of Tanzania",
+    "A2_ISO": "TZ",
+    "A3_UN": "TZA",
+    "NUM_UN": 834,
+    "DIALING_CODE": 255
+  },
+  {
+    "COUNTRY": "Thailand",
+    "A2_ISO": "TH",
+    "A3_UN": "THA",
+    "NUM_UN": 764,
+    "DIALING_CODE": 66
+  },
+  {
+    "COUNTRY": "Timor-Leste",
+    "A2_ISO": "TL",
+    "A3_UN": "TLS",
+    "NUM_UN": 626,
+    "DIALING_CODE": 670
+  },
+  {
+    "COUNTRY": "Togo",
+    "A2_ISO": "TG",
+    "A3_UN": "TGO",
+    "NUM_UN": 768,
+    "DIALING_CODE": 228
+  },
+  {
+    "COUNTRY": "Tokelau",
+    "A2_ISO": "TK",
+    "A3_UN": "TKL",
+    "NUM_UN": 772,
+    "DIALING_CODE": 690
+  },
+  {
+    "COUNTRY": "Tonga",
+    "A2_ISO": "TO",
+    "A3_UN": "TON",
+    "NUM_UN": 776,
+    "DIALING_CODE": 676
+  },
+  {
+    "COUNTRY": "Trinidad and Tobago",
+    "A2_ISO": "TT",
+    "A3_UN": "TTO",
+    "NUM_UN": 780,
+    "DIALING_CODE": "1-868"
+  },
+  {
+    "COUNTRY": "Tunisia",
+    "A2_ISO": "TN",
+    "A3_UN": "TUN",
+    "NUM_UN": 788,
+    "DIALING_CODE": 216
+  },
+  {
+    "COUNTRY": "Turkey",
+    "A2_ISO": "TR",
+    "A3_UN": "TUR",
+    "NUM_UN": 792,
+    "DIALING_CODE": 90
+  },
+  {
+    "COUNTRY": "Turkmenistan",
+    "A2_ISO": "TM",
+    "A3_UN": "TKM",
+    "NUM_UN": 795,
+    "DIALING_CODE": 993
+  },
+  {
+    "COUNTRY": "Turks and Caicos Islands",
+    "A2_ISO": "TC",
+    "A3_UN": "TCA",
+    "NUM_UN": 796,
+    "DIALING_CODE": "1-649"
+  },
+  {
+    "COUNTRY": "Tuvalu",
+    "A2_ISO": "TV",
+    "A3_UN": "TUV",
+    "NUM_UN": 798,
+    "DIALING_CODE": 688
+  },
+  {
+    "COUNTRY": "Uganda",
+    "A2_ISO": "UG",
+    "A3_UN": "UGA",
+    "NUM_UN": 800,
+    "DIALING_CODE": 256
+  },
+  {
+    "COUNTRY": "Ukraine",
+    "A2_ISO": "UA",
+    "A3_UN": "UKR",
+    "NUM_UN": 804,
+    "DIALING_CODE": 380
+  },
+  {
+    "COUNTRY": "United Arab Emirates",
+    "A2_ISO": "AE",
+    "A3_UN": "ARE",
+    "NUM_UN": 784,
+    "DIALING_CODE": 971
+  },
+  {
+    "COUNTRY": "United Kingdom",
+    "A2_ISO": "GB",
+    "A3_UN": "GBR",
+    "NUM_UN": 826,
+    "DIALING_CODE": 44
+  },
+  {
+    "COUNTRY": "United States",
+    "A2_ISO": "US",
+    "A3_UN": "USA",
+    "NUM_UN": 840,
+    "DIALING_CODE": 1
+  },
+  {
+    "COUNTRY": "United States Minor Outlying Islands",
+    "A2_ISO": "UM",
+    "A3_UN": "UMI",
+    "NUM_UN": 581,
+    "DIALING_CODE": 1
+  },
+  {
+    "COUNTRY": "Uruguay",
+    "A2_ISO": "UY",
+    "A3_UN": "URY",
+    "NUM_UN": 858,
+    "DIALING_CODE": 598
+  },
+  {
+    "COUNTRY": "Uzbekistan",
+    "A2_ISO": "UZ",
+    "A3_UN": "UZB",
+    "NUM_UN": 860,
+    "DIALING_CODE": 998
+  },
+  {
+    "COUNTRY": "Vanuatu",
+    "A2_ISO": "VU",
+    "A3_UN": "VUT",
+    "NUM_UN": 548,
+    "DIALING_CODE": 678
+  },
+  {
+    "COUNTRY": "Venezuela",
+    "A2_ISO": "VE",
+    "A3_UN": "VEN",
+    "NUM_UN": 862,
+    "DIALING_CODE": 58
+  },
+  {
+    "COUNTRY": "Viet Nam",
+    "A2_ISO": "VN",
+    "A3_UN": "VNM",
+    "NUM_UN": 704,
+    "DIALING_CODE": 84
+  },
+  {
+    "COUNTRY": "British Virgin Islands",
+    "A2_ISO": "VG",
+    "A3_UN": "VGB",
+    "NUM_UN": 92,
+    "DIALING_CODE": "1-284"
+  },
+  {
+    "COUNTRY": "US Virgin Islands",
+    "A2_ISO": "VI",
+    "A3_UN": "VIR",
+    "NUM_UN": 850,
+    "DIALING_CODE": "1-340"
+  },
+  {
+    "COUNTRY": "Wallis and Futuna",
+    "A2_ISO": "WF",
+    "A3_UN": "WLF",
+    "NUM_UN": 876,
+    "DIALING_CODE": 681
+  },
+  {
+    "COUNTRY": "Western Sahara",
+    "A2_ISO": "EH",
+    "A3_UN": "ESH",
+    "NUM_UN": 732,
+    "DIALING_CODE": 212
+  },
+  {
+    "COUNTRY": "Yemen",
+    "A2_ISO": "YE",
+    "A3_UN": "YEM",
+    "NUM_UN": 887,
+    "DIALING_CODE": 967
+  },
+  {
+    "COUNTRY": "Zambia",
+    "A2_ISO": "ZM",
+    "A3_UN": "ZMB",
+    "NUM_UN": 894,
+    "DIALING_CODE": 260
+  },
+  {
+    "COUNTRY": "Zimbabwe",
+    "A2_ISO": "ZW",
+    "A3_UN": "ZWE",
+    "NUM_UN": 716,
+    "DIALING_CODE": 263
+  },
+  {
+    "COUNTRY": "Aland Islands",
+    "A2_ISO": "AX",
+    "A3_UN": "ALA",
+    "NUM_UN": 248,
+    "DIALING_CODE": 358
+  }
+]
