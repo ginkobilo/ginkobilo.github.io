@@ -237,8 +237,8 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	.brushOn(false)
 	//.xUnits(d3.time.days)
 	.renderHorizontalGridLines(true)
-	 .margins({top: 5, left: 40, right: 10, bottom: 20})
-	//.xAxis();
+	 .margins({top: 5, left: 50, right: 10, bottom: 20});
+	 hitslineChart.xAxis().ticks(5);
 
 
 	// The small timeline
@@ -253,10 +253,11 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
     //.round(d3.time.month.round)
     .alwaysUseRounding(true)
     //.xUnits(d3.time.months)
-    .brushOn(true)
+    .brushOn(true);
     //.mouseZoomable(true);
  	 
     indextimelinechart.yAxis().ticks(0);
+    	 indextimelinechart.xAxis().ticks(8).tickFormat(d3.time.format('%a %d %b')) ;
 
     //*******************
     // the pie charts
