@@ -237,12 +237,12 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	.brushOn(false)
 	//.xUnits(d3.time.days)
 	.renderHorizontalGridLines(true)
-	 .margins({top: 5, left: 10, right: 10, bottom: 20})
+	 .margins({top: 5, left: 40, right: 10, bottom: 20})
 	//.xAxis();
 
 
 	// The small timeline
-	indextimelinechart.width(500).height(70)
+	indextimelinechart.width(550).height(70)
     //.margins({top: 0, right: 50, bottom: 20, left: 40})
     .dimension(DateDim)
     .group(totalCountPerMeasure)
@@ -255,7 +255,8 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
     //.xUnits(d3.time.months)
     .brushOn(true)
     //.mouseZoomable(true);
-
+ 	 
+    indextimelinechart.yAxis().ticks(0);
 
     //*******************
     // the pie charts
@@ -361,8 +362,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 
 				marker1.on("click", function (e) {
 					
-					console.log('liste place activated',listPlacesActivated)
-					console.log('liste layers activated',clickCircle)
+ 
 					// test if the layer is already in the activated ones
 					isplaceactive = listPlacesActivated.indexOf(e.target.options.area_name)
 
@@ -389,9 +389,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 						// display it on the board
 						document.getElementById('selected-area').innerHTML = listPlacesActivated.join();
 
-
-					console.log('Fin ajout liste place activated',listPlacesActivated)
-					console.log('Fin ajout liste layers activated',clickCircle)
+ 
 
 					}else  {  
 						listPlacesActivated.splice(isplaceactive, 1);
@@ -408,8 +406,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 
 						document.getElementById('selected-area').innerHTML =listPlacesActivated.join();
 					
-					console.log('Fin delete liste place activated',listPlacesActivated)
-					console.log('Fin delete liste layers activated',clickCircle)
+	 
 					}
 
 					// filter the data
@@ -441,6 +438,12 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	  // register handlers
 	  d3.selectAll('a#all').on('click', function () {
 	  	dc.filterAll();
+	  	listPlacesActivated=[]
+	  	_.each(clickCircle,function(di){
+				mymap.removeLayer(di);
+		});
+	  	clickCircle=[]
+
 	  	dc.renderAll();
 	  });
 
