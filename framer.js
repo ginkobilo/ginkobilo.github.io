@@ -160,11 +160,11 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 
 	var hitslineChart  = dc.lineChart("#chart-line-hitsperday"),
 	indextimelinechart = dc.barChart("#chart-line-index"),
-	countryDistinctChart = dc.barChart("#chart-raw-countries"),
+	countryDistinctChart = dc.rowChart("#chart-raw-countries"),
 	monthChart  =  dc.pieChart('#chart-ring-month'),
 	placeChart  =  dc.pieChart('#chart-ring-places'),
 	dataCount = dc.dataCount('#data-count'),
-	dataTable = dc.dataTable('-----#data-table'),
+	dataTable = dc.dataTable('#data-table'),
 	WChart = dc.geoChoroplethChart("#chart-world");
 
 
