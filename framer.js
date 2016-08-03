@@ -96,8 +96,10 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 		d.country =  Dic_ISO2UN[d.country];
 
 	});
-
-
+	xrange = d3.extent(UmsData, function(d) { return d.collect_time; });
+	console.log(xrange)
+	last60 = [d3.time.day.offset(xrange[0], 1), d3.time.day.offset(xrange[1], -1)]
+	console.log(last60)
 
 
 	/****************************************
@@ -245,19 +247,24 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	indextimelinechart.width(550).height(70)
     //.margins({top: 0, right: 50, bottom: 20, left: 40})
     .dimension(DateDim)
+
     .group(totalCountPerMeasure)
     .centerBar(true)
     .gap(1)
     .elasticY(true)
+    //.x(d3.time.scale().domain(xrange))
     .x(d3.time.scale().domain([DateDim.bottom(1)[0].collect_time,DateDim.top(1)[0].collect_time]))
+    //.filter(xrange)
     //.round(d3.time.month.round)
     .alwaysUseRounding(true)
+    .ordinalColors(['#a65628','#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33'])
     //.xUnits(d3.time.months)
     .brushOn(true);
     //.mouseZoomable(true);
  	 
     indextimelinechart.yAxis().ticks(0);
-    	 indextimelinechart.xAxis().ticks(8).tickFormat(d3.time.format('%a %d %b')) ;
+    indextimelinechart.xAxis().ticks(8).tickFormat(d3.time.format('%a %d %b')) ;
+    //indextimelinechart.filter(last60);
 
     //*******************
     // the pie charts
