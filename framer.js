@@ -49,9 +49,11 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 
 	Dic_ISO2UN={}
 	Dic_UN2ISO={}
+	Dic_UN2NAME={}
 	_.each(countrycodes_ISO_TO_UN_TO_NAME_table,function(d){
 		Dic_ISO2UN[d.A2_ISO] = d.A3_UN
 		Dic_UN2ISO[d.A3_UN] = d.A2_ISO
+		Dic_UN2NAME[d.A3_UN] = d.COUNTRY
 	})
 	
 
@@ -180,15 +182,20 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
     // THE GEOCHOROPLETH
     //*******************
 
-    width = 800
+    width = 500
     height = 400
 	var projection = d3.geo.mercator()
 		.center([0,0])
 		.scale(70)
 		.rotate([0,0]);
 	var projection = d3.geo.equirectangular()
-			.scale(153)
+			.scale(90)
 		    .translate([width/2,height/2])
+	
+	/*var projection =d3.geo.mercator()
+  	.scale(100)
+    .translate([width/2, height]);*/
+
 	WChart.width(width)
 	.height(height)
 	.dimension(CountryDim)
@@ -197,7 +204,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	.colorDomain([0, 200])
 	.colorCalculator(function (d) { return d ? WChart.colors()(d) : '#ccc'; })
 	.overlayGeoJson(WGeoMap.features, "state", function (d) { return d.id})
-	//.projection(projection)
+	.projection(projection)
 	.render();
 
 	
@@ -207,7 +214,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 
 	// The main timeline
 	hitslineChart
-	.width(1000).height(200)
+	.width(500).height(200)
 	.dimension(DateDim)
 	.group(totalCountPerMeasure)
 	.elasticY(true)
@@ -222,7 +229,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 
 
 	// The small timeline
-	indextimelinechart.width(1000).height(70)
+	indextimelinechart.width(500).height(70)
     //.margins({top: 0, right: 50, bottom: 20, left: 40})
     .dimension(DateDim)
     .group(totalCountPerMeasure)
@@ -275,7 +282,7 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
     
 	countryDistinctChart
 	.width(400)
-	.height(800)
+	.height(400)
 	.elasticX(true)
 	.dimension(CountryDim)
 	.group(countCountry)
@@ -284,6 +291,13 @@ function makeGraphs(error, UmsData, UmsPlaces,WGeoMap,countrycodes_ISO_TO_UN_TO_
 	.on("filtered", function(chart,filter) {
 		update_country_div(filter)
 	})
+	.rowsCap(15)
+	 .othersGrouper(false) 
+	.ordering(function(d) { return -d.value; })
+	.label(function (d){
+		//console.log( d)
+       return Dic_UN2NAME[d.key];
+    })
 	.render();
 
 
